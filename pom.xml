@@ -97,18 +97,17 @@
 		<testSourceDirectory>src/test/java</testSourceDirectory>
 	<pluginManagement> 
 			<plugins>
-				<!--	<plugin>
+					<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-war-plugin</artifactId>
 					<version>2.6</version>
 					<configuration>
 					<webXml>war\WEB-INF\web.xml</webXml>
 					</configuration>
--->
-			<!--		<configuration>
+		<configuration>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
-					</configuration>    -->
-<!--				</plugin> -->
+					</configuration>    
+			</plugin> 
 				  <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
