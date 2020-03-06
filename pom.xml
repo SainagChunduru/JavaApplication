@@ -103,8 +103,6 @@
 					<version>2.6</version>
 					<configuration>
 					<webXml>war\WEB-INF\web.xml</webXml>
-					</configuration>
-		<configuration>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
 					</configuration>    
 			</plugin> 
